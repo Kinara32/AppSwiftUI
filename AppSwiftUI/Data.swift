@@ -9,7 +9,8 @@ import UIKit
 import SwiftUI
 
 
-
+let swiftbook = UserResponse(id: 10, name: "Swiftbook", profileImage: "swiftbook", email: "info@swiftbook.ru", likes: "54.4K", text: "Обучение созданию приложений на Swift")
+let materialResponse: [ProductResponse] = load("coursesModelData.json")
 let userResponse: [UserResponse] = load("userModelData.json")
 
 

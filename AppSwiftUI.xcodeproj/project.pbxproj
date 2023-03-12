@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F170455029B678D1003B24A3 /* AppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170454F29B678D1003B24A3 /* AppSwiftUIApp.swift */; };
-		F170455229B678D1003B24A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170455129B678D1003B24A3 /* ContentView.swift */; };
+		F170455229B678D1003B24A3 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170455129B678D1003B24A3 /* FriendsList.swift */; };
 		F170455429B678D3003B24A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F170455329B678D3003B24A3 /* Assets.xcassets */; };
 		F170455729B678D3003B24A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F170455629B678D3003B24A3 /* Preview Assets.xcassets */; };
 		F170455F29B67C41003B24A3 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170455E29B67C41003B24A3 /* TopView.swift */; };
@@ -16,12 +16,15 @@
 		F170456429B68855003B24A3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170456229B68854003B24A3 /* Data.swift */; };
 		F170456529B68855003B24A3 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170456329B68855003B24A3 /* UserResponse.swift */; };
 		F170456729B68891003B24A3 /* userModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = F170456629B68891003B24A3 /* userModelData.json */; };
+		F196C4C429BE651600FE1555 /* coursesModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = F196C4C329BE651600FE1555 /* coursesModelData.json */; };
+		F196C4C629BE654100FE1555 /* ProductsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196C4C529BE654100FE1555 /* ProductsResponse.swift */; };
+		F196C4C829BE691200FE1555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196C4C729BE691200FE1555 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F170454C29B678D1003B24A3 /* AppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F170454F29B678D1003B24A3 /* AppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwiftUIApp.swift; sourceTree = "<group>"; };
-		F170455129B678D1003B24A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F170455129B678D1003B24A3 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
 		F170455329B678D3003B24A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F170455629B678D3003B24A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F170455D29B67900003B24A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		F170456229B68854003B24A3 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		F170456329B68855003B24A3 /* UserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		F170456629B68891003B24A3 /* userModelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userModelData.json; sourceTree = "<group>"; };
+		F196C4C329BE651600FE1555 /* coursesModelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coursesModelData.json; sourceTree = "<group>"; };
+		F196C4C529BE654100FE1555 /* ProductsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponse.swift; sourceTree = "<group>"; };
+		F196C4C729BE691200FE1555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				F170454F29B678D1003B24A3 /* AppSwiftUIApp.swift */,
-				F170455129B678D1003B24A3 /* ContentView.swift */,
+				F170455129B678D1003B24A3 /* FriendsList.swift */,
+				F196C4C729BE691200FE1555 /* ContentView.swift */,
 				F170455E29B67C41003B24A3 /* TopView.swift */,
 				F170456029B684E8003B24A3 /* Cell.swift */,
 				F170456229B68854003B24A3 /* Data.swift */,
 				F170456329B68855003B24A3 /* UserResponse.swift */,
+				F196C4C529BE654100FE1555 /* ProductsResponse.swift */,
 				F170456629B68891003B24A3 /* userModelData.json */,
+				F196C4C329BE651600FE1555 /* coursesModelData.json */,
 				F170455329B678D3003B24A3 /* Assets.xcassets */,
 				F170455D29B67900003B24A3 /* Info.plist */,
 				F170455529B678D3003B24A3 /* Preview Content */,
@@ -142,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F196C4C429BE651600FE1555 /* coursesModelData.json in Resources */,
 				F170456729B68891003B24A3 /* userModelData.json in Resources */,
 				F170455729B678D3003B24A3 /* Preview Assets.xcassets in Resources */,
 				F170455429B678D3003B24A3 /* Assets.xcassets in Resources */,
@@ -155,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F170455229B678D1003B24A3 /* ContentView.swift in Sources */,
+				F170455229B678D1003B24A3 /* FriendsList.swift in Sources */,
 				F170456429B68855003B24A3 /* Data.swift in Sources */,
+				F196C4C829BE691200FE1555 /* ContentView.swift in Sources */,
+				F196C4C629BE654100FE1555 /* ProductsResponse.swift in Sources */,
 				F170456129B684E8003B24A3 /* Cell.swift in Sources */,
 				F170455F29B67C41003B24A3 /* TopView.swift in Sources */,
 				F170455029B678D1003B24A3 /* AppSwiftUIApp.swift in Sources */,

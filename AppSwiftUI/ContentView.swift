@@ -2,18 +2,22 @@
 //  ContentView.swift
 //  AppSwiftUI
 //
-//  Created by Matvei Bykadorov on 06.03.2023.
+//  Created by Matvei Bykadorov on 12.03.2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    var category: [String: [ProductResponse]] {
+        .init(grouping: materialResponse, by: {$0.category.rawValue})
+    }
     var body: some View {
         NavigationView {
-            List(userResponse) { user in
-                Cell(user: user)
+            List {
+                Text("Hello")
             }
-            .navigationTitle(Text("Friends"))
+            .navigationBarTitle(Text("Homepage"))
         }
     }
 }
