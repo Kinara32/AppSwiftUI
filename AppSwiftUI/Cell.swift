@@ -15,7 +15,6 @@ struct Cell: View {
         VStack(spacing: 16.0) {
             TopView(user: user)
             Text(user.text)
-                
         }
     }
 }

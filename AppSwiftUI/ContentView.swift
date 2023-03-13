@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var category: [String: [ProductResponse]] {
+    var categories: [String: [ProductResponse]] {
         .init(grouping: materialResponse, by: {$0.category.rawValue})
     }
     var body: some View {
         NavigationView {
             List {
-                Text("Hello")
+                Cell(user: swiftbook)
+                    .listRowInsets(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                ForEach(categories.keys.sorted(), id: \.self) { key in
+                    ProductRow(categoryName: key, item: categories[key]!)
+                }
+                .listRowInsets(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                NavigationLink("Наши преподаватели", destination: FriendsList())
             }
             .navigationBarTitle(Text("Homepage"))
         }
