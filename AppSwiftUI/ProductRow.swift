@@ -16,13 +16,15 @@ struct ProductRow: View {
         VStack(alignment: .leading, spacing: 10.0) {
             Text(categoryName).font(.headline)
             ScrollView(.horizontal) {
-                HStack {
+                HStack() {
                     ForEach(item) { item in
-                        ProductItem(object: item)
+                        NavigationLink(destination: DetailScreen(object: item)){
+                            ProductItem(object: item)
+                        }
                     }
                 }
             }
-            .frame(height: 190)
+            .frame(height: 200)
         }
     }
 }

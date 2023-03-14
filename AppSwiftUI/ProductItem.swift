@@ -23,6 +23,6 @@ struct ProductItem: View {
 
 struct ProductItem_Previews: PreviewProvider {
     static var previews: some View {
-        ProductItem(object: materialResponse[0])
+        ProductItem(object: materialResponse[4])
     }
 }
